@@ -1,4 +1,4 @@
-# Shopify-Backend-Challenge
+# Inventory Applet
 <center><img src='https://user-images.githubusercontent.com/27745342/168490746-6bd1247a-e0b1-4047-9422-50d6ec75f9de.png'></center>
 
 ## Directions ---

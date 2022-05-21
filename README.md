@@ -11,7 +11,7 @@ A rudimentary create/update/delete application with a Streamlit front-end SQLite
 
 2. Type the following command "streamlit run App.py"
 
-  2a. This should open the app up on a local environment. Do not run the actual code in an IDE.
+    2a. This should open the app up on a local environment. Do not run the actual code in an IDE.
 
 ## Applet Navigation
 

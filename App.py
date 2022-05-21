@@ -3,6 +3,9 @@ from Item import Item
 
 
 def run():
+    if 'initial' not in st.session_state:
+        st.session_state.initial = True
+        Item.delete_DB()
     if 'id' not in st.session_state:
         st.session_state.id = 0
     else:

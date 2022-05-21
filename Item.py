@@ -1,5 +1,6 @@
 import sqlite3
 import pandas as pd
+import os
 from os.path import exists
 
 
@@ -69,6 +70,11 @@ class Item:
                                 )"""
             )
             quick_connect.close()
+
+    @staticmethod
+    def delete_DB():
+        if exists("inventory.db"):
+            os.remove("inventory.db")
 
     @staticmethod
     def delete_item(db_id):

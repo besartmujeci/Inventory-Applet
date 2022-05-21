@@ -38,7 +38,6 @@ class Item:
             self._count = count
 
     def create_item(self):
-        self.count = self.count(self.count)
         quick_connect = sqlite3.connect("inventory.db")
         with quick_connect:
             quick_connect.cursor().execute(
@@ -48,7 +47,6 @@ class Item:
             )
 
     def update_item(self, db_id):
-        self.count = self.count(self.count)
         quick_connect = sqlite3.connect("inventory.db")
         with quick_connect:
             quick_connect.cursor().execute(

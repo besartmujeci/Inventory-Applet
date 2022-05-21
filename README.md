@@ -1,21 +1,9 @@
 # Inventory Applet
 <center><img src='https://user-images.githubusercontent.com/27745342/168490746-6bd1247a-e0b1-4047-9422-50d6ec75f9de.png'></center>
 
-## Directions ---
-
-### Dependencies ---
-
-**Python** - Version 3.8.5
-
-**SQLite** - Included in Python Standard Library
-
-**os** - Included in Python Standard Library
-
-**Streamlit** - terminal command: "pip install streamlit"
-
-**pandas** - terminal command: "pip install pandas"
-
-### Run ---
+# Directions
+A rudimentary create/update/delete application with a Streamlit front-end SQLite back-end that enables a user to create/update/delete custom objects that appear as HTML cards. 
+## Run
 1. In your IDE of choice open a terminal. 
 
 
@@ -23,7 +11,7 @@
 
   2a. This should open the app up on a local environment. Do not run the actual code in an IDE.
 
-### Applet Navigation ---
+## Applet Navigation
 
 *Create*
 
